@@ -4,6 +4,6 @@ export const QuestList = async () => {
   const quests = await getQuestList();
   console.log(quests);
   return (<ul>
-    {quests.map(quest => (<li>{quest.id}</li>))}
+    {quests.map(((quest, id) => (<li key={id}>{quest.id}</li>)))}
   </ul>);
 }

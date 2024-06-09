@@ -8,7 +8,7 @@ export default function List() {
     <main className="h-full">
       <h3 className="font-aloja text-3xl p-10">QUIZZARD.</h3>
       {/*<QuestList/>*/}
-      <Chat className="absolute bottom-0 right-0 w-1/3 h-2/3" text="Welcome to quizzardland!"/>
+      <Chat />
     </main>
   );
 }

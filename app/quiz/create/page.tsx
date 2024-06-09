@@ -2,7 +2,7 @@
 import Wizard from "@/app/components/Wizard";
 import {Button} from "@mui/base";
 
-export default function Home() {
+export default function Create() {
   return (
     <main className="h-full">
       <h1 className="font-aloja text-9xl p-10">QUIZZARD.</h1>

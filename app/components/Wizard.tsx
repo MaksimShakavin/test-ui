@@ -13,7 +13,7 @@ export default function Wizard({text, className}: WizardProps) {
         alt='dialog image'
         fill
       />
-      <h2 className="absolute top-[30%] left-[30%] transform rotate-[-20deg] max-w-[70%] text-black">{text.toUpperCase()}</h2>
+      <h2 className="absolute top-[30%] left-[17%] transform rotate-[-20deg] max-w-[70%] text-black">{text.toUpperCase()}</h2>
     </div>
     <div className="absolute bottom-0 right-0 w-1/2 pb-[60%]">
       <Image

@@ -14,8 +14,14 @@ export default function Chat() {
     setIsLoaded(true);
   }, [])
   const options: BotOptions = {
+    tooltip: {
+      text: 'I am here to help'
+    },
     chatButton: {
       icon: '/wizard.png'
+    },
+    notification: {
+      disabled: true
     }
   }
   return (
